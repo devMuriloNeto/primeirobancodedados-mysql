@@ -19,7 +19,7 @@ O banco de dados é chamado `carros` e possui três tabelas principais:
 - MySQL
 - SQL padrão (DDL e DML)
 
-## 📁 Scripts Incluídos
+## 📁 Scripts executados
 
 - Criação do banco de dados
 - Criação e alteração de tabelas
