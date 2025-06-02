@@ -10,7 +10,7 @@ O banco de dados é chamado `carros` e possui três tabelas principais:
 - **inventario**: Contém os modelos disponíveis, ligados a uma marca.
 - **clientes**: Cadastro de clientes do sistema.
 
-### 📊 Relacionamentos
+### 🔗 Relacionamentos
 
 - Cada veículo no `inventario` está relacionado a uma entrada na tabela `marcas`, via chave estrangeira `marcas_id`.
 
