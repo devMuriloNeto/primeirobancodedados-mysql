@@ -1,4 +1,4 @@
-# 🚗 Projeto Banco de Dados - Sistema de Inventário de Carros
+# Projeto Banco de Dados - Sistema de Inventário de Carros
 
 Este projeto simula um sistema simples de controle de inventário de veículos, com base de dados modelada em **MySQL**. Armazenando informações como: marcas de carros, seus modelos, e os dados de clientes cadastrados. 
 
