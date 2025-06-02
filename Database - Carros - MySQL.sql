@@ -63,3 +63,16 @@ VALUES
 select * from marcas;
 select * from inventario;
 select * from clientes;
+
+-- Comando para listar os modelos de veiculos com informações da marca
+SELECT
+  i.modelo,
+  i.transmissão,
+  i.motor,
+  i.combustivel,
+  m.nome_marca,
+  m.origem_marca
+FROM
+  inventario i
+JOIN
+  marcas m ON i.marcas_id = m.id;
