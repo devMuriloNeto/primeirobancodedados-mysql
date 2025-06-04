@@ -5,7 +5,7 @@ USE carros;
 
 -- criando a tabela de marcas dos carros
 CREATE TABLE marcas (
-	id INT NOT NULL AUTO_INCREMENT,
+    id INT NOT NULL AUTO_INCREMENT,
     nome_marca VARCHAR(25) NOT NULL,
     PRIMARY KEY (id)
 );
@@ -15,7 +15,7 @@ ALTER TABLE marcas ADD origem_marca VARCHAR(25);
 
 -- criando a tabela de inventario
 CREATE TABLE inventario (
-	id INT NOT NULL AUTO_INCREMENT,
+    id INT NOT NULL AUTO_INCREMENT,
     modelo VARCHAR(50) NOT NULL,
     transmissão VARCHAR(25) NOT NULL,
     motor VARCHAR(50) NOT NULL,
@@ -27,7 +27,7 @@ CREATE TABLE inventario (
    
 -- criando a tabela de cliente
 CREATE TABLE clientes (
-	id INT NOT NULL AUTO_INCREMENT,
+    id INT NOT NULL AUTO_INCREMENT,
     nome VARCHAR(50) NOT NULL,
     sobrenome VARCHAR(50) NOT NULL,
     endereco VARCHAR(250) NOT NULL,
@@ -37,7 +37,7 @@ CREATE TABLE clientes (
 -- inserindo dados nas tabelas
 INSERT INTO clientes (nome, sobrenome, endereco)
 VALUES 
-	('Murilo', 'Nunes', 'Rua 1'),
+    ('Murilo', 'Nunes', 'Rua 1'),
     ('Luiz', 'Paz', 'Rua 2'),
     ('Kaik', 'Caprioglio', 'Rua 3'),
     ('Eliseu', 'Martins', 'Rua 4'),
@@ -45,7 +45,7 @@ VALUES
     
 INSERT INTO marcas (nome_marca, origem_marca)
 VALUES
-	('Chevrolet', 'Estados Unidos'),
+    ('Chevrolet', 'Estados Unidos'),
     ('Fiat', 'Italia'),
     ('Hyundai', 'Coreia do Sul'),
     ('Toyota', 'Japao'),
